@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="username">Username</label><br>
+            <input type="text"> <br><br>
+            <label for="password">Password</label> <br>
+            <input type="password" name="password"> <br><br>
+            <div class="button-container">
+                <input type="submit" value="Login">
+                <input type="button" value="Sign up">
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <form method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+                <label for="firstname">Firstname</label>
+                <input type="text">&nbsp; 
+                <label for="lastname">Lastname</label> 
+                <input type="text"> 
+            </div>
+            <br>
+            <div>
+                <label for="Gender">Gender</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </div>
+            <br>
+            <div>
+                <label for="mobile model">Your phone model:</label>
+                <select name="mobile">
+                    <option>Select phone model</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Oppo">Oppo</option>
+                    <option value="Xiaomi">Xiaomi</option>
+                    <option value="Vivo">Vivo</option>
+                </select>
+            </div>  
+            <br>
+            <div>
+                <label for="Programming Languages">Programming Languages:</label><br>
+                <input type="checkbox" name="languages" value="C">C<br>
+                <input type="checkbox" name="languages" value="HTML">HTML<br>
+                <input type="checkbox" name="languages" value="CSS">CSS<br>
+                <input type="checkbox" name="languages" value="Javascript">Javascript<br>
+                <input type="checkbox" name="languages" value="PHP">PHP<br>
+                <input type="checkbox" name="languages" value="Python">Python<br>
+            </div>
+            <br>
+            <div>
+                <label for="picture">Your Picture:</label>
+                <input type="file">
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+            <input type="hidden" id="version" name="version" value="4">
+        </fieldset>
+    </form>
+    <br>
+    <form method="post">
+        <fieldset>
+            <legend>Introduce yourself</legend>
+            <label for="About me">About me:</label>
+            <textarea name="About me" id="" cols="50" rows="10"></textarea>
+            <br>
+            <div class="button-container">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

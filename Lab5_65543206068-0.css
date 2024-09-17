@@ -1,0 +1,56 @@
+form {
+    width: 60%;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 2px solid #2804f7;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+input[type="text"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+    background-color: #2804f7;
+    color: rgb(255, 255, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
+    background-color: #b405e9;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}

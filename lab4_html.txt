@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h1 {text-align: center;}
+        img {border-radius: 50%; display: block; margin: auto;}
+    </style>
+</head>
+<body>
+    <h1 style="color:darkorange;"><u>ประวัติตนเอง</u></h1>
+    <img src="https://scontent-bkk1-2.xx.fbcdn.net/v/t1.15752-9/451190725_1959103174559939_8939247262452133256_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_ohc=6XyhCAhNp2AQ7kNvgGxffDD&_nc_ht=scontent-bkk1-2.xx&oh=03_Q7cD1QG3IV5kLeuTYLn054Z3yvSULUw7_gLlGyujx91QcFI5sg&oe=66FF8C5F" width="500px" height="500px">
+    <hr>
+    <h2 style="color:darkorange;">ข้อมูลส่วนตัว</h2>
+    <table>
+        <tr>
+          <td><b>ชื่อ-นามสกุล</b></td>
+          <td>นายวีรวุฒิ ลักขณาธร</td>
+        </tr>
+        <tr>
+          <td><b>ชื่อเล่น </b></td>
+          <td>เกียร์</td>
+        </tr>
+        <tr>
+            <td><b>ที่อยู่</b></td>
+            <td>98 ถ.ป่าขาม2 ต.พระบาท อ.เมือง จ.ลำปาง</td>
+        </tr>
+        <tr>
+            <td><b>เบอร์โทรศัพท์</b></td>
+            <td>065-119-0012</td>
+        </tr>
+        <tr>
+            <td><b>ความสามารถส่วนตัว</b></td>
+            <td>ขี่จักรยานปล่อยสองมือได้</td>
+        </tr>
+        <tr>
+            <td><b>คติประจำใจ</b></td>
+            <td>ในวันที่เราล้ม เข่าเราจะถลอก</td>
+        </tr>
+        <tr>
+            <td><b>ความใฝ่ฝันในอนาคต&emsp;</b></td>
+            <td>ทำงานเกี่ยวกับเขียนโปรแกรม</td>
+        </tr>
+        <tr>
+            <td><b>งานอดิเรก</b></td>
+            <td>ฟังเพลง</td>
+        </tr>
+        <tr>
+            <td><b>สิ่งที่ชอบ</b></td>
+            <td>เล่นเกม</td>
+        </tr>
+      </table> 
+      <br>
+      <hr>
+      <div id="contact">
+        <h2 style="color:darkorange;"><i>ติดต่อ</i></h2>
+        <ul>
+            <li><b>Email : </b>gearmcc2545@gmail.com</li>
+            <li><b>Facebook :</b><a href="https://www.facebook.com/profile.php?id=100002058530688">Weerawut Lukkanatorn</a></li>
+            <li><b>Twitter : </b>-</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="friend">
+        <p style="font-weight: bold; font-size: 1.2rem;">เพื่อนพร้อมเบอร์โทรศัพท์</p>
+        <ol>
+            <li>นายฐญา ปัญญาเคิ่ง <b>เบอร์โทรศัพท์ : </b>061-271-2923</li>
+            <li>นายธนทัต สุทธนะ&emsp;<b>เบอร์โทรศัพท์ : </b>095-682-3195</li>
+        </ol>
+      </div>
+</body>
+</html>
